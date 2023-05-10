@@ -1,0 +1,9 @@
+e2edbt_project:
+  outputs:
+    default:
+      type: duckdb
+      path: ../warehouse/warehouse.duckdb
+      # attach:
+      #   - path: ../webshop/webshop.ddb
+      #   - path: ../webshop/clicks.ddb
+  target: default

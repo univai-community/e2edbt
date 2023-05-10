@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: webshop
+    database: webshop
+    schema: webshop
+    tables:
+      - name: customers
+      - name: orders
+      - name: payments
+      - name: sessions
+  - name: clicks
+    database: clicks
+    schema: clicks
+    tables:
+      - name: clicks
